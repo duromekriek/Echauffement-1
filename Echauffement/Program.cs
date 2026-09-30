@@ -17,10 +17,18 @@ class Program
         Console.WriteLine("quel est vôtre âge");
 
         // Etape 3 : affichez soit "Tu es majeur", soit "Tu es mineur" dépendant de l'âge fourni par l'utilisateur
-        
+        int utilisateur;
+        if (utilisateur > 18)
+        {
+            Console.WriteLine("tu est majeur.");
+        }
+        else
+        {
+            Console.WriteLine("tu est mineur");
+        }
 
         // Etape 4 : demandez maintenant à l'utilisateur combien d'euro il a (nombre décimal)
-
+        
         // Etape 5 : affichez maintenant 4 choix d'armes avec chacune un prix
 
         // Etape 6 : laissez l'utilisateur choisir l'une de ces 4 armes en indiquant un nombre entre 1 et 4
