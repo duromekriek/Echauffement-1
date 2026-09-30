@@ -12,7 +12,9 @@ class Program
         string mon_prénom = "Thomas";
         string mon_nom = "Van drepol";
 
-        // Etape 2 : demandez à l'utilisateur son prénom et son âge
+        // Etape 2 : demandez à l'utilisateur son prénom et son 
+        string vôtre_nom = "quel est vôtre nom?";
+        string vôtre_âge = "quel est vôtre âge?";
 
         // Etape 3 : affichez soit "Tu es majeur", soit "Tu es mineur" dépendant de l'âge fourni par l'utilisateur
 
