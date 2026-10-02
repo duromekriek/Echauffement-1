@@ -59,12 +59,26 @@ class Program
             prix = 9000;
 
         // Etape 7a : vérifiez si l'utilisateur a assez d'argent par rapport à la somme qu'il avait rentré à l'étape 4
+        if (Arme >= 1 && Arme <= 4)
+        {
+            if (Ton_âge >= 18 && Tes_euros >= prix)
+            {
+                Tes_euros = Tes_euros - prix;
 
+                Console.WriteLine("L'achat a été effectué.");
+                Console.WriteLine("Il te reste " + Tes_euros + " €.");
+            }
+            else
+            {
+                Console.WriteLine("L'achat n'a pas été possible, fond insuffisant.");
+            }
+        }
 
         // Etape 7b : modifiez l'étape 7a pour ajouter un connecteur logique qui vérifie que l'utilisateur est majeur en plus d'avoir assez d'argent
         // Lorsque l'utilisateur respecte ces demandes, retirez le prix de l'arme de l'argent de l'utilisateur, puis confirmez à l'utilisateur que l'action a été effectuée 
         // Dans tous les autres cas, informez l'utilisateur que l'action n'a pas été possible
-
+        
+        //j'ai mis le 7b dans l'étape précedente. 
 
         /*
          * Après votre dernier commit, faites un push de votre projet pour qu'il soit accessible sur github.com
