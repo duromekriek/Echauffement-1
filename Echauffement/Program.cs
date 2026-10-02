@@ -12,7 +12,9 @@ class Program
         Console.WriteLine("je m'appele Thomas et mon jeu préféré est Project Zomboid");
         
         // Etape 2 : demandez à l'utilisateur son prénom et son âge 
-        
+        Console.WriteLine("Quel est ton prénom et ton âge?");
+        string Ton_Prénom = Console.ReadLine();
+        string Ton_âge = Console.ReadLine();
         
         // Etape 3 : affichez soit "Tu es majeur", soit "Tu es mineur" dépendant de l'âge fourni par l'utilisateur
         
