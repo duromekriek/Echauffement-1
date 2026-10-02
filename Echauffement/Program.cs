@@ -14,10 +14,17 @@ class Program
         // Etape 2 : demandez à l'utilisateur son prénom et son âge 
         Console.WriteLine("Quel est ton prénom et ton âge?");
         string Ton_Prénom = Console.ReadLine();
-        string Ton_âge = Console.ReadLine();
+        int Ton_âge = int.Parse(Console.ReadLine());
         
         // Etape 3 : affichez soit "Tu es majeur", soit "Tu es mineur" dépendant de l'âge fourni par l'utilisateur
-        
+        if (Ton_âge >= 18)
+        {
+            Console.WriteLine("Tu est majeur.");
+        }
+        else
+        {
+            Console.WriteLine("Tu est mineur.");
+        }
         
         // Etape 4 : demandez maintenant à l'utilisateur combien d'euro il a (nombre décimal)
         
