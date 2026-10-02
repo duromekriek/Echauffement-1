@@ -27,7 +27,8 @@ class Program
         }
         
         // Etape 4 : demandez maintenant à l'utilisateur combien d'euro il a (nombre décimal)
-        
+        Console.WriteLine("Combien d'euros as tu?");
+        int Tes_euros = int.Parse(Console.ReadLine());
         
         // Etape 5 : affichez maintenant 4 choix d'armes avec chacune un prix
 
