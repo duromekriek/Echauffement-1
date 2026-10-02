@@ -32,13 +32,31 @@ class Program
         
         // Etape 5 : affichez maintenant 4 choix d'armes avec chacune un prix
         Console.WriteLine("je te propose un choix de quatre armes différentes.");
-        Console.WriteLine("Arme 1 : 350 euros");
-        Console.WriteLine("arme 2 : 1200 euros");
-        Console.WriteLine("arme 3 : 3000 euros");
-        Console.WriteLine("arme 4 : 9000 euros");
+        Console.WriteLine("Arme 1 : 350 euros.");
+        Console.WriteLine("Arme 2 : 1200 euros.");
+        Console.WriteLine("Arme 3 : 3000 euros.");
+        Console.WriteLine("Arme 4 : 9000 euros.");
 
         // Etape 6 : laissez l'utilisateur choisir l'une de ces 4 armes en indiquant un nombre entre 1 et 4
+        Console.WriteLine("choisi l'arme que tu souhaites dans cette sélection.");
+        int Arme = int.Parse(Console.ReadLine());
+        int prix = 0;
 
+        if (Arme == 1)
+        {
+            prix = 350;
+        }
+        else if (Arme == 2)
+        {
+            prix = 1200;
+        }
+        else if (Arme == 3)
+        {
+            prix = 3000;
+        }
+        else if (Arme == 4)
+        {
+            prix = 9000;
 
         // Etape 7a : vérifiez si l'utilisateur a assez d'argent par rapport à la somme qu'il avait rentré à l'étape 4
 
